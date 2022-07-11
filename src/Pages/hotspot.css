@@ -1,0 +1,8 @@
+.hotspot-container{
+    padding:5px;
+    display:flex;
+    flex-direction:column;
+    width: calc(100% - 17rem);
+    justify-content: flex-end;
+    margin-left: 17rem;
+}

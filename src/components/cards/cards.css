@@ -1,0 +1,50 @@
+
+.card{
+    display:block;
+    border-radius:4px;
+    background-color:#fff;
+    box-shadow:0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.data_card{
+    display:flex;
+    flex-direction:column;
+    max-height:300px; 
+}
+.data_card__title{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding:16px;
+}
+.data_card__content{
+    padding: 16px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    height:100%;
+}
+
+.hotspot_card{
+    display:flex;
+    flex-direction:column;
+    box-sizing:border-box; 
+}
+.hotspot_card_header{
+    box-sizing:border-box;
+    width:100%;
+    padding:16px;
+    font-size:1.3rem;
+    border-bottom:1px solid #d3d3d3;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.hotspot_card_content{
+    box-sizing:border-box;
+    width:100%;
+    padding:8px;
+}
